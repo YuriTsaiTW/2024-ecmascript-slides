@@ -1,0 +1,80 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "jest", "prefer-arrow"],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "extends": [
+        "next/core-web-vitals",
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "prettier"
+      ],
+      "rules": {
+        "no-console": "error",
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": [
+          "error",
+          {
+            "argsIgnorePattern": "^_",
+            "varsIgnorePattern": "^_",
+            "caughtErrorsIgnorePattern": "^_",
+            "ignoreRestSiblings": true
+          }
+        ],
+        "@typescript-eslint/ban-types": [
+          "error",
+          {
+            "extendDefaults": true,
+            "types": {
+              "{}": false
+            }
+          }
+        ],
+        "@typescript-eslint/consistent-type-imports": [
+          "warn",
+          {
+            "prefer": "type-imports",
+            "disallowTypeAnnotations": true,
+            "fixStyle": "separate-type-imports"
+          }
+        ],
+        // https://github.com/testing-library/eslint-plugin-testing-library/blob/main/docs/rules/no-node-access.md#options
+        "testing-library/no-node-access": [
+          "error",
+          {
+            // This is only allowed for checking if component renders null, not expect to query element with it
+            // https://testing-library.com/docs/react-testing-library/api/#container-1
+            "allowContainerFirstChild": true
+          }
+        ],
+        "no-nested-ternary": "error",
+        "object-property-newline": "error",
+        "jest/no-disabled-tests": "warn",
+        "jest/no-focused-tests": "error",
+        "jest/no-identical-title": "error",
+        "jest/prefer-to-have-length": "warn",
+        "jest/valid-expect": "error",
+        "react-hooks/exhaustive-deps": [
+          "warn",
+          {
+            "additionalHooks": "(useUpdateEffect|useTimeoutEffect)"
+          }
+        ],
+        "prefer-arrow/prefer-arrow-functions": "error"
+      },
+      "parserOptions": {
+        "project": ["./tsconfig.json"]
+      }
+    },
+    // Only uses Testing Library lint rules in test files
+    {
+      "files": [
+        "**/__tests__/**/*.[jt]s?(x)",
+        "**/?(*.)+(spec|test).[jt]s?(x)"
+      ],
+      "plugins": ["testing-library"],
+      "extends": ["plugin:testing-library/react"]
+    }
+  ]
+}
