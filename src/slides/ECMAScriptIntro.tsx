@@ -8,7 +8,6 @@ import {
   Notes,
   Quote,
   Slide,
-  Text,
 } from 'spectacle';
 
 function StageBox({ children }: PropsWithChildren) {
@@ -51,7 +50,7 @@ export default function ECMAScriptIntro() {
         <Heading margin="0px" color="tertiary" fontSize="h2">
           ECMAScript 提案五階段
         </Heading>
-        <Quote color="tertiary" fontSize="monospace">
+        <Quote color="tertiary" fontSize="monospace" lineHeight="1.5">
           ECMA International 是制定程式語言標準的非營利組織。
           <br />
           為了替當時各種瀏覽器中的腳本語言如 JavaScript、VBScript
@@ -78,10 +77,11 @@ export default function ECMAScriptIntro() {
         <Link
           target="_blank"
           href="https://github.com/tc39/proposals/blob/main/finished-proposals.md"
+          fontSize="monospace"
+          color="quinary"
+          marginTop="16px"
         >
-          <Text fontSize="18px" color="quinary">
-            Finished proposals on Github
-          </Text>
+          Finished proposals on Github
         </Link>
       </FlexBox>
       <Notes>{/* TODO */}</Notes>

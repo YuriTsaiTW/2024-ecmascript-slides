@@ -31,11 +31,11 @@ export default function LearnMindset() {
         <Heading margin="0px" color="tertiary" fontSize="h2">
           新語法，該學嗎？
         </Heading>
-        <Quote color="tertiary" fontSize="monospace">
+        <Quote color="tertiary" fontSize="monospace" lineHeight="1.5">
           從 ES2015(ES6)
           開始，每年都會釋出新的語法標準。與其埋頭苦追所有的新語法，
           <br />
-          不如先客觀評估學習效益，以及思考自己適合發展什麼樣的技能棧
+          不如先評估學習效益，以及思考自己適合發展什麼樣的技能棧
         </Quote>
         <Grid gridTemplateColumns="40% 60%" gridGap={'0px'} width="60%">
           <PointBox>Required Functionality?</PointBox>

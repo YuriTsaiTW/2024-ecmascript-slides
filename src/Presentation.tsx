@@ -1,6 +1,7 @@
 import { Deck, DefaultTemplate } from 'spectacle';
 
 import AboutMe from './slides/AboutMe';
+import ArrayAt from './slides/ArrayAt';
 import Cover from './slides/Cover';
 import ECMAScriptIntro from './slides/ECMAScriptIntro';
 import End from './slides/End';
@@ -13,8 +14,9 @@ export default function Presentation() {
     <Deck template={() => <DefaultTemplate />} theme={theme}>
       <Cover />
       <ECMAScriptIntro />
-      {/* TODO */}
       <LearnMindset />
+      <ArrayAt />
+      {/* TODO */}
       <AboutMe />
       <PromoBook />
       <End />
