@@ -15,11 +15,7 @@ export default function Cover() {
         </Heading>
       </FlexBox>
       <Notes>
-        暖場打招呼，簡單帶過兩大主題
-        <ol>
-          <li>Headless UI</li>
-          <li>react-table</li>
-        </ol>
+        {/* TODO */}
       </Notes>
     </Slide>
   );
