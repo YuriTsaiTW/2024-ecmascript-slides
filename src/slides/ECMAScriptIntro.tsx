@@ -51,7 +51,7 @@ export default function ECMAScriptIntro() {
         <Heading margin="0px" color="tertiary" fontSize="h2">
           ECMAScript 提案五階段
         </Heading>
-        <Quote color="tertiary" fontSize="18px">
+        <Quote color="tertiary" fontSize="monospace">
           ECMA International 是制定程式語言標準的非營利組織。
           <br />
           為了替當時各種瀏覽器中的腳本語言如 JavaScript、VBScript

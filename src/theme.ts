@@ -1,6 +1,5 @@
 import { SpectacleThemeOverrides } from 'spectacle';
 
-
 const theme: SpectacleThemeOverrides = {
   size: {
     width: 1366,
@@ -15,8 +14,7 @@ const theme: SpectacleThemeOverrides = {
     quinary: '#99B998',
   },
   fonts: {
-    header:
-      '"Roboto Mono", "Helvetica Neue", Helvetica, Arial, sans-serif',
+    header: '"Roboto Mono", "Helvetica Neue", Helvetica, Arial, sans-serif',
     text: '"Roboto Mono ","Helvetica Neue", Helvetica, Arial, sans-serif',
     monospace: '"Consolas", "Menlo", monospace',
   },
@@ -24,8 +22,8 @@ const theme: SpectacleThemeOverrides = {
     h1: '72px',
     h2: '56px',
     h3: '36px',
-    text: '24px',
-    monospace: '20px',
+    text: '20px',
+    monospace: '18px',
   },
   space: [16, 24, 32],
 };
