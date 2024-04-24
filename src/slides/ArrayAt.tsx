@@ -20,7 +20,7 @@ export default function ArrayAt() {
     <Slide backgroundColor="quaternary">
       <FlexBox height="100%" flexDirection="column">
         <Heading margin="0px" color="tertiary" fontSize="h2" padding="8px">
-          <pre style={{ padding: 0, margin: 0 }}>indexable.at(index)</pre>
+          <pre style={{ padding: 0, margin: 0 }}>indexable.at(index: number)</pre>
         </Heading>
         <Quote color="tertiary" fontSize="monospace" lineHeight="1.5">
           ES2022
