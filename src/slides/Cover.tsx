@@ -1,4 +1,4 @@
-import { FlexBox, Heading, Notes, Slide } from 'spectacle';
+import { FlexBox, Heading, Slide } from 'spectacle';
 
 export default function Cover() {
   return (
@@ -14,9 +14,6 @@ export default function Cover() {
           July.3, 2024 &nbsp;&nbsp;&nbsp;&nbsp; 🙋‍♀️&nbsp;Present by: Yuri Tsai
         </Heading>
       </FlexBox>
-      <Notes>
-        {/* TODO */}
-      </Notes>
     </Slide>
   );
 }

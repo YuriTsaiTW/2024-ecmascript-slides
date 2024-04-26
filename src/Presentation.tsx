@@ -15,6 +15,7 @@ import LearnMindset from './slides/LearnMindset';
 import MapGroupBy from './slides/MapGroupBy';
 import ObjectGroupBy from './slides/ObjectGroupBy';
 import ObjectHasOwn from './slides/ObjectHasOwn';
+import OtherSyntax from './slides/OtherSyntax';
 import PromiseWithResolvers from './slides/PromiseWithResolvers';
 import PromiseWithResolvers1 from './slides/PromiseWithResolvers1';
 import PromoBook from './slides/PromoBook';
@@ -43,6 +44,7 @@ export default function Presentation() {
       <PromiseWithResolvers1 />
       <TopLevelAwait />
       <ErrorCause />
+      <OtherSyntax />
       <Conclusion />
       <PromoBook />
       <End />
