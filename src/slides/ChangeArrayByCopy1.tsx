@@ -3,20 +3,14 @@ import {
   CodePane,
   FlexBox,
   Heading,
-  Quote,
   Slide,
-  Table,
-  TableBody,
-  TableCell,
-  TableHeader,
-  TableRow,
 } from 'spectacle';
 
 export default function ChangeArrayByCopy1() {
   return (
     <Slide backgroundColor="quaternary">
-      <FlexBox height="100%" flexDirection="column">
-        <Heading color="tertiary" fontSize="h2" padding="0px" margin="0px">
+      <FlexBox height="100%" flexDirection="column" justifyContent="start">
+        <Heading color="tertiary" fontSize="h2">
           Change Array by COPY
         </Heading>
         <FlexBox flexDirection="column" alignItems="start">

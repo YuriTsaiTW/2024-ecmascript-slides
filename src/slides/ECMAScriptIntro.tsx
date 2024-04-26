@@ -46,7 +46,7 @@ function DescBox({ children }: PropsWithChildren) {
 export default function ECMAScriptIntro() {
   return (
     <Slide backgroundColor="quaternary">
-      <FlexBox height="100%" flexDirection="column">
+      <FlexBox height="100%" flexDirection="column" justifyContent="start">
         <Heading color="tertiary" fontSize="h2" padding="0px" margin="0px">
           ECMAScript 提案五階段
         </Heading>

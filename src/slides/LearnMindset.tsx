@@ -27,7 +27,7 @@ function DescBox({ children }: PropsWithChildren) {
 export default function LearnMindset() {
   return (
     <Slide backgroundColor="quaternary">
-      <FlexBox height="100%" flexDirection="column">
+      <FlexBox height="100%" flexDirection="column" justifyContent="start">
         <Heading color="tertiary" fontSize="h2" padding="0px" margin="0px">
           新語法，該學嗎？
         </Heading>

@@ -15,7 +15,8 @@ import LearnMindset from './slides/LearnMindset';
 import MapGroupBy from './slides/MapGroupBy';
 import ObjectGroupBy from './slides/ObjectGroupBy';
 import ObjectHasOwn from './slides/ObjectHasOwn';
-import PromiseAllResolvers from './slides/PromiseAllResolvers';
+import PromiseWithResolvers from './slides/PromiseWithResolvers';
+import PromiseWithResolvers1 from './slides/PromiseWithResolvers1';
 import PromoBook from './slides/PromoBook';
 import TopLevelAwait from './slides/TopLevelAwait';
 import theme from './theme';
@@ -38,7 +39,8 @@ export default function Presentation() {
       {/* object */}
       <ObjectHasOwn />
       {/* async */}
-      <PromiseAllResolvers />
+      <PromiseWithResolvers />
+      <PromiseWithResolvers1 />
       <TopLevelAwait />
       <ErrorCause />
       <Conclusion />

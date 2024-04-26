@@ -3,14 +3,8 @@ import { FlexBox, Heading, Quote, Slide } from 'spectacle';
 export default function ObjectGroupBy() {
   return (
     <Slide backgroundColor="quaternary">
-      <FlexBox height="100%" flexDirection="column">
-        <Heading
-          color="tertiary"
-          fontSize="h2"
-          padding="0px"
-          margin="0px"
-          textAlign="left"
-        >
+      <FlexBox height="100%" flexDirection="column" justifyContent="start">
+        <Heading color="tertiary" fontSize="h2">
           <pre style={{ padding: 0, margin: 0 }}>
             Object.groupBy(iterables, function)
           </pre>

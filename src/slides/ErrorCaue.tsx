@@ -3,7 +3,7 @@ import { FlexBox, Heading, Quote, Slide } from 'spectacle';
 export default function ErrorCause() {
   return (
     <Slide backgroundColor="quaternary">
-      <FlexBox height="100%" flexDirection="column">
+      <FlexBox height="100%" flexDirection="column" justifyContent="start">
         <Heading color="tertiary" fontSize="h2" padding="0px" margin="0px">
           <pre style={{ padding: 0, margin: 0 }}>Error Cause</pre>
         </Heading>

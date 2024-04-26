@@ -3,8 +3,8 @@ import { FlexBox, Heading, Link, Quote, Slide } from 'spectacle';
 export default function ArrayAt1() {
   return (
     <Slide backgroundColor="quaternary">
-      <FlexBox height="100%" flexDirection="column">
-        <Heading margin="0px" color="tertiary" fontSize="h2" padding="8px">
+      <FlexBox height="100%" flexDirection="column" justifyContent="start">
+        <Heading color="tertiary" fontSize="h2">
           WHY <pre style={{ padding: 0, margin: 0 }}>indexable.at(index)</pre>
         </Heading>
         <Quote
