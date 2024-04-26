@@ -3,8 +3,8 @@ import { FlexBox, Grid, Heading, Quote, Slide, Text } from 'spectacle';
 
 function PointBox({ children }: PropsWithChildren) {
   return (
-    <FlexBox backgroundColor="secondary" marginBottom="24px">
-      <Heading fontSize="24px" color="primary" padding="6px" margin="12px">
+    <FlexBox backgroundColor="quinary" marginBottom="24px">
+      <Heading fontSize="24px" color="tertiary" padding="6px" margin="12px">
         {children}
       </Heading>
     </FlexBox>
@@ -14,7 +14,7 @@ function PointBox({ children }: PropsWithChildren) {
 function DescBox({ children }: PropsWithChildren) {
   return (
     <FlexBox
-      borderBottomColor="secondary"
+      borderBottomColor="quinary"
       borderBottomStyle="solid"
       bottomBottomWidth="1px"
       marginBottom="24px"
@@ -28,14 +28,12 @@ export default function LearnMindset() {
   return (
     <Slide backgroundColor="quaternary">
       <FlexBox height="100%" flexDirection="column">
-        <Heading margin="0px" color="tertiary" fontSize="h2">
+        <Heading color="tertiary" fontSize="h2" padding="0px" margin="0px">
           新語法，該學嗎？
         </Heading>
         <Quote color="tertiary" fontSize="monospace" lineHeight="1.5">
-          從 ES2015(ES6)
-          開始，每年都會釋出新的語法標準。與其埋頭苦追所有的新語法，
-          <br />
-          不如先評估學習效益，以及思考自己適合發展什麼樣的技能棧
+          從 ES2015(ES6) 開始，每年都會釋出新的語法標準。 <br />
+          與其埋頭苦追所有的新語法，不如先評估學習效益，以及思考自己適合發展什麼樣的技能棧
         </Quote>
         <Grid gridTemplateColumns="40% 60%" gridGap={'0px'} width="60%">
           <PointBox>Required Functionality?</PointBox>

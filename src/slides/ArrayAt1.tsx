@@ -9,7 +9,7 @@ export default function ArrayAt1() {
         </Heading>
         <Quote
           color="tertiary"
-          fontSize="monospace"
+          fontSize="text"
           lineHeight="1.5"
           style={{
             width: '60%',
@@ -33,7 +33,7 @@ export default function ArrayAt1() {
           target="_blank"
           href="https://github.com/tc39/proposal-relative-indexing-method?tab=readme-ov-file#rationale"
           fontSize="monospace"
-          color="quinary"
+          color="secondary"
           marginTop="16px"
         >
           https://github.com/tc39/proposal-relative-indexing-method?tab=readme-ov-file#rationale

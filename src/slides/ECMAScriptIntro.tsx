@@ -14,7 +14,7 @@ function StageBox({ children }: PropsWithChildren) {
   return (
     <FlexBox
       backgroundColor="quinary"
-      color="primary"
+      color="tertiary"
       borderColor="quinary"
       borderWidth="1px"
       borderStyle="solid"
@@ -47,7 +47,7 @@ export default function ECMAScriptIntro() {
   return (
     <Slide backgroundColor="quaternary">
       <FlexBox height="100%" flexDirection="column">
-        <Heading margin="0px" color="tertiary" fontSize="h2">
+        <Heading color="tertiary" fontSize="h2" padding="0px" margin="0px">
           ECMAScript 提案五階段
         </Heading>
         <Quote color="tertiary" fontSize="monospace" lineHeight="1.5">
@@ -56,7 +56,7 @@ export default function ECMAScriptIntro() {
           為了替當時各種瀏覽器中的腳本語言如 JavaScript、VBScript
           等制定統一標準，並且保持立場中立，
           <br />
-          這項標準的名稱便以組織本身的縮寫命名，取為 ECMAScript
+          這項標準的名稱便以組織本身的縮寫命名，取為 <strong>ECMAScript</strong>
         </Quote>
         <Grid gridTemplateColumns="15% 85%" gridGap={12} height="100%">
           <StageBox>Stage 0</StageBox>
@@ -78,7 +78,7 @@ export default function ECMAScriptIntro() {
           target="_blank"
           href="https://github.com/tc39/proposals/blob/main/finished-proposals.md"
           fontSize="monospace"
-          color="quinary"
+          color="secondary"
           marginTop="16px"
         >
           Finished proposals on Github

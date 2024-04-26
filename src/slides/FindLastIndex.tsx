@@ -9,7 +9,7 @@ import {
   UnorderedList,
 } from 'spectacle';
 
-export default function FindLast() {
+export default function FindLastIndex() {
   return (
     <Slide backgroundColor="quaternary">
       <FlexBox height="100%" flexDirection="column">
@@ -17,7 +17,7 @@ export default function FindLast() {
           <pre style={{ padding: 0, margin: 0 }}>
             Array.prototype.
             <br />
-            findLast(function, this)
+            findLastIndex(function, this)
           </pre>
         </Heading>
         <Quote color="tertiary" fontSize="monospace" lineHeight="1.5">
@@ -25,7 +25,7 @@ export default function FindLast() {
             <strong>Spec: ES2023</strong>
           </p>
           從陣列的結尾位置往前看，取得第一個符合 <strong>function</strong>{' '}
-          函式的執行結果的元素
+          函式的執行結果的元素索引
         </Quote>
         <FlexBox>
           <FlexBox
@@ -41,7 +41,7 @@ export default function FindLast() {
             
             // [...]: unnecessary copy
             // reverse: unnecessary mutation
-            const lastDivisible3 = [...array].reverse().find(number => number % 3 === 0);
+            const lastDivisible3 = [...array].reverse().findIndex(number => number % 3 === 0);
           `}
             </CodePane>
             <CodePane language="javascript" style={{ width: '100%' }}>
@@ -49,7 +49,7 @@ export default function FindLast() {
             // After
             const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
             
-            const lastDivisible3 = array.findLast(number => number % 3 === 0);
+            const lastDivisible3 = array.findLastIndex(number => number % 3 === 0);
           `}
             </CodePane>
           </FlexBox>
@@ -57,7 +57,7 @@ export default function FindLast() {
             <ListItem>
               <Link
                 target="_blank"
-                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findLast"
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findLastIndex"
                 fontSize="monospace"
                 color="secondary"
               >
@@ -67,7 +67,7 @@ export default function FindLast() {
             <ListItem>
               <Link
                 target="_blank"
-                href="https://github.com/zloirock/core-js/blob/master/packages/core-js/modules/es.array.find-last.js"
+                href="https://github.com/zloirock/core-js/blob/master/packages/core-js/modules/es.array.find-last-index.js"
                 fontSize="monospace"
                 color="secondary"
               >
@@ -77,7 +77,7 @@ export default function FindLast() {
             <ListItem>
               <Link
                 target="_blank"
-                href="https://jsperf.app/nagehu"
+                href="https://jsperf.app/cafuke"
                 fontSize="monospace"
                 color="secondary"
               >
