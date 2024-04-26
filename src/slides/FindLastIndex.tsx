@@ -44,7 +44,7 @@ export default function FindLastIndex() {
             const lastDivisible3 = [...array].reverse().findIndex(number => number % 3 === 0);
           `}
             </CodePane>
-            <CodePane language="javascript" style={{ width: '100%' }}>
+            <CodePane language="javascript" style={{ width: '100%' }} highlightRanges={[4]}>
               {`
             // After
             const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
