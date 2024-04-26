@@ -103,16 +103,6 @@ export default function ObjectHasOwn() {
                 Check Polyfill/Transformer
               </Link>
             </ListItem>
-            <ListItem>
-              <Link
-                target="_blank"
-                href="https://jsperf.app/qutihi/3"
-                fontSize="monospace"
-                color="secondary"
-              >
-                Check Performance
-              </Link>
-            </ListItem>
           </UnorderedList>
         </FlexBox>
       </FlexBox>

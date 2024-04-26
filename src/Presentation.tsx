@@ -4,7 +4,6 @@ import ArrayAt from './slides/ArrayAt';
 import ArrayAt1 from './slides/ArrayAt1';
 import ChangeArrayByCopy from './slides/ChangeArrayByCopy';
 import ChangeArrayByCopy1 from './slides/ChangeArrayByCopy1';
-import Conclusion from './slides/Conclution';
 import Cover from './slides/Cover';
 import ECMAScriptIntro from './slides/ECMAScriptIntro';
 import End from './slides/End';
@@ -12,8 +11,9 @@ import ErrorCause from './slides/ErrorCaue';
 import FindLast from './slides/FindLast';
 import FindLastIndex from './slides/FindLastIndex';
 import LearnMindset from './slides/LearnMindset';
-import MapGroupBy from './slides/MapGroupBy';
 import ObjectGroupBy from './slides/ObjectGroupBy';
+import ObjectGroupBy1 from './slides/ObjectGroupBy1';
+import ObjectGroupBy2 from './slides/ObjectGroupBy2';
 import ObjectHasOwn from './slides/ObjectHasOwn';
 import OtherSyntax from './slides/OtherSyntax';
 import PromiseWithResolvers from './slides/PromiseWithResolvers';
@@ -35,9 +35,10 @@ export default function Presentation() {
       <FindLastIndex />
       <ChangeArrayByCopy />
       <ChangeArrayByCopy1 />
-      <ObjectGroupBy />
-      <MapGroupBy />
       {/* object */}
+      <ObjectGroupBy />
+      <ObjectGroupBy1 />
+      <ObjectGroupBy2 />
       <ObjectHasOwn />
       {/* async */}
       <PromiseWithResolvers />
@@ -45,7 +46,6 @@ export default function Presentation() {
       <TopLevelAwait />
       <ErrorCause />
       <OtherSyntax />
-      <Conclusion />
       <PromoBook />
       <End />
     </Deck>
