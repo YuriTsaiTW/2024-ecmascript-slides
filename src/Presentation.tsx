@@ -19,6 +19,7 @@ import OtherSyntax from './slides/OtherSyntax';
 import PromiseWithResolvers from './slides/PromiseWithResolvers';
 import PromiseWithResolvers1 from './slides/PromiseWithResolvers1';
 import PromoBook from './slides/PromoBook';
+import Reference from './slides/Reference';
 import TopLevelAwait from './slides/TopLevelAwait';
 import theme from './theme';
 
@@ -46,6 +47,7 @@ export default function Presentation() {
       <TopLevelAwait />
       <ErrorCause />
       <OtherSyntax />
+      <Reference />
       <PromoBook />
       <End />
     </Deck>

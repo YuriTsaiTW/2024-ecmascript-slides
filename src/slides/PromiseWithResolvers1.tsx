@@ -1,7 +1,5 @@
 import {
-  Box,
   CodePane,
-  CodeSpan,
   FlexBox,
   Heading,
   Link,
