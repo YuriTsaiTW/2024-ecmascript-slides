@@ -13,7 +13,7 @@ export default function FindLastIndex() {
   return (
     <Slide backgroundColor="quaternary">
       <FlexBox height="100%" flexDirection="column" justifyContent="start">
-        <Heading color="tertiary" fontSize="h2">
+        <Heading color="tertiary" fontSize="h2" padding="0px" margin="0px">
           <pre style={{ padding: 0, margin: 0 }}>
             Array.prototype.
             <br />
@@ -25,7 +25,7 @@ export default function FindLastIndex() {
             <strong>Spec: ES2023</strong>
           </p>
           從陣列的結尾位置往前看，取得第一個符合 <strong>function</strong>{' '}
-          函式的執行結果的元素索引
+          執行結果的元素索引
         </Quote>
         <FlexBox>
           <FlexBox
@@ -44,7 +44,7 @@ export default function FindLastIndex() {
             const lastDivisible3 = [...array].reverse().findIndex(number => number % 3 === 0);
           `}
             </CodePane>
-            <CodePane language="javascript" style={{ width: '100%' }} highlightRanges={[4]}>
+            <CodePane language="javascript" style={{ width: '100%' }}>
               {`
             // After
             const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];

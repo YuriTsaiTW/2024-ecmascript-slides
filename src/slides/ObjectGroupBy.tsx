@@ -26,11 +26,11 @@ export default function ObjectGroupBy() {
             {`
           // original data
           const users = [
-            { name: 'Alice', gentle: 'female' },
-            { name: 'Bob', gentle: 'male' },
-            { name: 'Charlie', gentle: 'male' },
-            { name: 'Eve', gentle: 'female' }
-        ];
+              { name: 'Alice', gentle: 'female' },
+              { name: 'Bob', gentle: 'male' },
+              { name: 'Charlie', gentle: 'male' },
+              { name: 'Eve', gentle: 'female' }
+          ];
         `}
           </CodePane>
           <CodePane language="javascript">

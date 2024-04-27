@@ -18,7 +18,7 @@ export default function ObjectHasOwn() {
   return (
     <Slide backgroundColor="quaternary">
       <FlexBox height="100%" flexDirection="column" justifyContent="start">
-        <Heading color="tertiary" fontSize="h2">
+        <Heading color="tertiary" fontSize="h2" margin="0px" padding="0px">
           <pre style={{ padding: 0, margin: 0 }}>
             Object.hasOwn(object, key)
           </pre>
@@ -53,8 +53,8 @@ export default function ObjectHasOwn() {
                 實體
               </TableCell>
               <TableCell color="tertiary" padding="4px">
-                一般物件都會繼承 Object 的
-                prototype，可以直接呼叫 hasOwnProperty(key)
+                一般物件都會繼承 Object 的 prototype，可以直接呼叫
+                hasOwnProperty(key)
               </TableCell>
             </TableRow>
             <TableRow>

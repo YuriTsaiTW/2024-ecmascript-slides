@@ -18,7 +18,7 @@ export default function ChangeArrayByCopy() {
             #immutable
           </mark>
           <mark style={{ backgroundColor: '#ebe5da', padding: 4, margin: 4 }}>
-            #functional-programming
+            #functional programming
           </mark>
         </Quote>
         <FlexBox flexDirection="column" alignItems="start">
@@ -26,7 +26,7 @@ export default function ChangeArrayByCopy() {
             <Heading margin="0px" color="tertiary" fontSize="text">
               反轉元素的排列
             </Heading>
-            <CodePane language="javascript" highlightRanges={[3]}>
+            <CodePane language="javascript">
               {`
             const array = [1, 2, 3, 4, 5]; // expected result: [5, 4, 3, 2, 1]
             array.reverse(); // mutable      
@@ -38,7 +38,7 @@ export default function ChangeArrayByCopy() {
             <Heading margin="0px" color="tertiary" fontSize="text">
               按排序條件重新排列元素
             </Heading>
-            <CodePane language="javascript" highlightRanges={[7]}>
+            <CodePane language="javascript">
               {`
             function compareNumbers(a, b) {
               return a - b;

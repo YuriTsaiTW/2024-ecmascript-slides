@@ -71,7 +71,7 @@ export default function ArrayAt() {
           </TableBody>
         </Table>
         <FlexBox justifyContent="spaceBetween">
-          <CodePane language="javascript" highlightRanges={[8]}>
+          <CodePane language="javascript">
             {`
             // Usual practice
             const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];

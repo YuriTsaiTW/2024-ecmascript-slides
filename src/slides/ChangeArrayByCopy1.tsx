@@ -18,7 +18,7 @@ export default function ChangeArrayByCopy1() {
             <Heading margin="0px" color="tertiary" fontSize="text">
               對陣列刪除和新增元素
             </Heading>
-            <CodePane language="javascript" highlightRanges={[8]}>
+            <CodePane language="javascript">
               {`
             const names = ['Yuri', 'Zoe', 'Bob'];
             
@@ -35,7 +35,7 @@ export default function ChangeArrayByCopy1() {
             <Heading margin="0px" color="tertiary" fontSize="text">
               對指定索引的元素重新賦值
             </Heading>
-            <CodePane language="javascript" highlightRanges={[4]}>
+            <CodePane language="javascript">
               {`
             const names = ['Yuri', 'Zoe', 'Bob']; // expected result: ['Yuri', 'May', 'Bob']
 
