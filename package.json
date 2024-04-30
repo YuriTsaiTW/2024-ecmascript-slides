@@ -4,7 +4,7 @@
   "scripts": {
     "start": "vite dev --port 3000",
     "build": "vite build",
-    "release": "vite build --outDir public"
+    "release": "vite build --outDir public --base=/public/"
   },
   "dependencies": {
     "react": "^18.1.0",
