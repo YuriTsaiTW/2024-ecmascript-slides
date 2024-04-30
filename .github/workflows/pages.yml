@@ -36,7 +36,7 @@ jobs:
           node-version: 20
           cache: 'npm'
       - name: Install dependencies
-        run: npm run install
+        run: npm ci
       - name: Prepare artifact
         run: npm run artifact
       - name: Setup Pages
