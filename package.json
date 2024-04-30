@@ -4,7 +4,8 @@
   "scripts": {
     "start": "vite dev --port 3000",
     "build": "vite build",
-    "docs": "vite build --outDir docs --base=/docs/"
+    "preview": "vite preview",
+    "artifact": "vite build --outDir --base=/2024-ecmascript-slides/"
   },
   "dependencies": {
     "react": "^18.1.0",
