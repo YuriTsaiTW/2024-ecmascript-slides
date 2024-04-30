@@ -34,11 +34,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'pnpm'
+          cache: 'npm'
       - name: Install dependencies
-        run: pnpm install
+        run: npm run install
       - name: Prepare artifact
-        run: pnpm artifact
+        run: npm run artifact
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
