@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "start": "vite dev --port 3000",
-    "build": "vite build"
+    "build": "vite build",
+    "release": "vite build --outDir public"
   },
   "dependencies": {
     "react": "^18.1.0",
