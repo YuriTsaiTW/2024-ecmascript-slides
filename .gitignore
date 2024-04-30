@@ -15,4 +15,3 @@ lerna-debug.log*
 
 # Build artifacts
 dist
-public
